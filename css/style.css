@@ -1,0 +1,324 @@
+/* *********************** Main Styles ******************** */
+
+body {
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    width: 100vw;
+}
+
+.page-container {
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page-container a {
+    text-decoration: none;
+    color: #000
+}
+
+a:hover {
+    background-color: #fff !important;
+}
+
+
+/* *********************** Main Header ******************** */
+
+.flex-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+h1 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 32px;
+    background-color: #fff;
+
+}
+
+h1 a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-header {
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 0 !important;
+}
+
+div.navbar-header {
+    margin: 0 !important;
+}
+
+#button-icon.navbar-toggle {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 100%;
+    padding-top: 10px;
+}
+    
+
+#button-icon {
+    font-size: 20px;
+}
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 3px 3px;
+}
+
+
+nav li a:hover {
+    color: grey;
+}
+
+/* ***********************  Generic Content ******************** */
+
+.main-content {
+    background-color: #f7f7f7;
+    flex: 1;
+    margin-top: 95px;
+
+}
+
+.page-content-container, .artist-list-parent-container,.artist-about, .artist-art-gallery, 
+.table-container, .gallery-listings-parent-container, .latest-news-container, .form-container,
+.latest-news-item-container, .artist-art-gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* **************************** Page Titles */
+
+h4 {
+    font-weight: 600;
+    color: #fff;
+    background-color: #0c80fb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ***************************** Item Titles */
+
+h5.news-text, h5.artist-list-text, h5.artist-gallery-text, h5.gallery-listings-text, 
+h5.latest-news-text {
+    color: #0c80fb;
+    font-size: 18px;
+}
+
+/* ***************************** Images */
+
+
+.news-image, .artist-image, .artist-gallery-image, .gallery-listings-image, .latest-news-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    min-height: 30%;
+    max-width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.news-image:hover, .artist-image:hover, .artist-gallery-image:hover, .gallery-listings-image:hover {
+    transform: scale(1.03);
+}
+
+/* ***************************** Text */
+
+
+.news-text, .artist-list-text, .artist-about-text, .artist-gallery-text, .gallery-listings-text, 
+table, form p, form input, button, .latest-news-text {
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+/* ***********************  Index.html ******************** */
+
+/* *********************** Header */
+
+.header-image {
+    height:350px;
+    width: 100%;
+    background-image: url("../images/index/header-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mission-text {
+    width:90%;
+    height:200px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: -140px;
+}
+
+#mission-text p {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    transform: translateY(30%);
+}
+
+/* *********************** Latest News Section */
+
+
+.news-item-container {
+    margin-bottom: 20px;
+}
+
+
+
+/* ***********************  Artist-List.html ******************** */
+
+
+p.artist-list-text {
+    text-align: right;
+}
+
+
+/* ***********************  Artist-Gallery.html ******************** */
+
+.artist-art-gallery {
+    margin-top: 50px;
+}
+
+.artist-about-image img {
+    width: 300;
+    height: 200px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+.artist-about-text {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+p.artist-gallery-text {
+    text-align: right;
+}
+
+#artist-about-text-subtitle {
+        text-align: center;
+}
+
+/* ***********************  Upcoming-Exhibitions.html ******************** */
+
+table {
+    margin: 0 auto;
+    max-width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    border: 1px solid #939393;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.table-description {
+    width: 100px;
+}
+
+
+/* ***********************  Gallery-Listings.html ******************** */
+
+p.gallery-listings-text {
+    padding-top: 10px;
+}
+
+
+/* ***********************  Contact.html ******************** */
+
+form {
+    text-align: center;
+}
+
+form p {
+    text-align: left;
+        margin: 5%;
+}
+
+form input {
+    width: 90%;
+    border: solid 2px lightgrey;
+}
+
+.text-box {
+    height: 200px
+}
+
+.submit-button {
+    margin: 10px;
+    background-color: #D3D4D5;
+    color: #646464;
+    transition-duration: .75s;
+}
+
+.submit-button:hover {
+    background-color: #FF8C00;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#dummy-form {
+    color: red;
+}
+
+/* ***********************  Footer ******************** */
+
+.footer-border {
+    width: 100%;
+    height: 50px;
+    background-color: #0c80fb;
+}
+
+.footer-container {
+    text-align: center;
+
+
+}
+
+.footer-icon {
+    font-size: 30px;
+    padding: 10px;
+}
