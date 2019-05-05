@@ -153,10 +153,9 @@ for the main content of each page and uses larger font sizes and images to make 
 
 ## Deployment
 
-The site will not be deployed to a hosting platform at this stage of development. It is currently too static
-and does not allow for user interaction which is crucial for the project. It will be deployed live once
-the contact form can be updated and image galleries can be viewed more effectively after the JavaScript section
-of the course. It is essential that users can contact the site effectively via the contact form. 
+The site was deployed using GitHub Pages. The link to the site is:
+
+https://garylacumbre.github.io/exhibit-laois/index.html
 
 ## Credits
 
