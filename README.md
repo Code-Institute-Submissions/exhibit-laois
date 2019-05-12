@@ -179,3 +179,6 @@ https://stock.adobe.com/ie/contributor/202074453/ledokol-ua?load_type=author&pre
 The idea for the site came from working in the Laois Library service where I was able to work with local artists
 in setting up and running exhibitions in library art exhibition spaces. Once the site is deployed, these same artists 
 will be able contribute their work. 
+
+
+

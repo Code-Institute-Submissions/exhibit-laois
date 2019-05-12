@@ -23,7 +23,6 @@ a:hover {
     background-color: #fff !important;
 }
 
-
 /* *********************** Main Header ******************** */
 
 .flex-header {
@@ -31,6 +30,7 @@ a:hover {
     top: 0;
     width: 100%;
     background-color: #fff;
+    z-index: 1;
 }
 
 h1 {
@@ -41,7 +41,6 @@ h1 {
     padding-top: 20px;
     font-size: 32px;
     background-color: #fff;
-
 }
 
 h1 a:hover {
@@ -71,12 +70,10 @@ div.navbar-header {
     min-width: 100%;
     padding-top: 10px;
 }
-    
 
 #button-icon {
     font-size: 20px;
 }
-
 
 nav ul {
     padding: 0;
@@ -90,7 +87,6 @@ nav li {
     padding: 3px 3px;
 }
 
-
 nav li a:hover {
     color: grey;
 }
@@ -101,7 +97,6 @@ nav li a:hover {
     background-color: #f7f7f7;
     flex: 1;
     margin-top: 95px;
-
 }
 
 .page-content-container, .artist-list-parent-container,.artist-about, .artist-art-gallery, 
@@ -135,7 +130,6 @@ h5.latest-news-text {
 
 /* ***************************** Images */
 
-
 .news-image, .artist-image, .artist-gallery-image, .gallery-listings-image, .latest-news-image {
     display: block;
     margin-left: auto;
@@ -154,7 +148,6 @@ h5.latest-news-text {
 
 /* ***************************** Text */
 
-
 .news-text, .artist-list-text, .artist-about-text, .artist-gallery-text, .gallery-listings-text, 
 table, form p, form input, button, .latest-news-text {
     width: 90%;
@@ -165,15 +158,13 @@ table, form p, form input, button, .latest-news-text {
     font-weight: 300;
 }
 
-
-
 /* ***********************  Index.html ******************** */
 
 /* *********************** Header */
 
 .header-image {
     height:350px;
-    width: 100%;
+    width: 100vw;
     background-image: url("../images/index/header-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,20 +187,15 @@ table, form p, form input, button, .latest-news-text {
 
 /* *********************** Latest News Section */
 
-
 .news-item-container {
     margin-bottom: 20px;
 }
 
-
-
 /* ***********************  Artist-List.html ******************** */
-
 
 p.artist-list-text {
     text-align: right;
 }
-
 
 /* ***********************  Artist-Gallery.html ******************** */
 
@@ -259,13 +245,11 @@ table, th, td {
     width: 100px;
 }
 
-
 /* ***********************  Gallery-Listings.html ******************** */
 
 p.gallery-listings-text {
     padding-top: 10px;
 }
-
 
 /* ***********************  Contact.html ******************** */
 
@@ -314,8 +298,6 @@ form input {
 
 .footer-container {
     text-align: center;
-
-
 }
 
 .footer-icon {

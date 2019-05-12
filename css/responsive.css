@@ -22,7 +22,6 @@
 
 /* *************************** Two Column layout */
 
-
     .page-content-container, .artist-list-parent-container, .gallery-listings-parent-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -34,10 +33,8 @@
         margin-bottom: 20px;
     }
     
-
 /* ***************************** Images */
    
-    
     .news-image, .artist-image, .artist-gallery-image, .gallery-listings-image, .latest-news-image {
         height: 200px;
     }
@@ -60,11 +57,9 @@
     }
      
 /* *********************** Latest News Section */     
-     
 
 /* *****************************  Artist-List.html ************************** */
 
-     
 /* ***************************  Artist-Gallery.html ************************* */
      
     .artist-contact {
@@ -89,7 +84,6 @@
      
 /* ***************************  Gallery-Listings.html *********************** */
 
-
 /* *****************************  Contact.html ****************************** */
 
     .form-container {
@@ -108,7 +102,6 @@
         height: 400px;
     }
     
-    
     .latest-news-text-container {
         width: 500px;
         background-color: #fff;
@@ -117,13 +110,8 @@
         border-radius: 10px;
     }  
 
-
-
 /* ********************************  Footer ********************************* */
-
 }
-
-
 
 /* *************************************************************************
                                     LAPTOP
@@ -156,8 +144,8 @@
     .news-item-container, .artist-list-container, .gallery-listings-container {
         max-width: 30%;
         margin: 0 auto;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
      
 /* **************************** Page Titles */
@@ -173,7 +161,6 @@
         font-size: 18px;
     }    
      
-
 /* ******************************  Index.html ******************************* */
 
 /* ******************************* Header */
@@ -186,13 +173,10 @@
         text-align: center;
     } 
      
-     
 /* *********************** Latest News Section */     
      
-
 /* *****************************  Artist-List.html ************************** */
 
-     
 /* ***************************  Artist-Gallery.html ************************* */
 
     .artist-art-gallery {
@@ -216,13 +200,11 @@
 
 /* ***************************  Gallery-Listings.html *********************** */
 
-
 /* *****************************  Contact.html ****************************** */
 
     .form-container {
         max-width: 70%;
     }
-    
 }
 
 /* *************************************************************************
@@ -252,14 +234,12 @@
     }
 
 /* **************************** Page Titles */
-    
 
     h4 {
         font-size: 28px;
     }
     
 /* ***************************** Item Titles */
-    
     
     h5.news-text, h5.artist-list-text, h5.artist-gallery-text, h5.gallery-listings-text, 
     h5.latest-news-text {
@@ -275,13 +255,11 @@
 
 /* ***************************** Images */
 
-
     .news-image, .artist-image, .artist-gallery-image, .gallery-listings-image, .latest-news-image {
         height: 220px;
         width: 90%;
     }
     
-
 /* ******************************  Index.html ******************************* */
 
 /* ******************************* Header */
@@ -321,8 +299,6 @@
         font-size: 20px;
     }
 
-        
-
 /* ***********************  Upcoming-Exhibitions.html ******************** */
 
     table {
@@ -342,7 +318,6 @@
         margin-top: 50px;
     }
     
-    
     .latest-news-text-container {
         width: 600px;
         background-color: #fff;
@@ -358,7 +333,6 @@
     .footer-icon {
         font-size: 40px;
     }
-    
 }
 
 /* *************************************************************************
@@ -369,7 +343,6 @@
     
 /* ****************************** Main Header **************************** */
     
-    
     h1 {
         font-size: 48px;
     }
@@ -378,7 +351,6 @@
         font-size: 28px;
         margin-right: 40px;
     }
-    
     
 /* ***************************  Generic Content *************************** */
 
@@ -389,16 +361,13 @@
         margin: 0 auto;
     }
     
-
 /* **************************** Page Titles */
     
-
     h4 {
         font-size: 32px;
     }
     
 /* ***************************** Item Titles */
-    
     
     h5.news-text, h5.artist-list-text, h5.artist-gallery-text, h5.gallery-listings-text, 
     h5.latest-news-text {
@@ -414,7 +383,6 @@
 
 /* ***************************** Images */
 
-
     .news-image, .artist-image, .artist-gallery-image, .gallery-listings-image, .latest-news-image {
         height: 260px;
         width: 90%;
@@ -428,11 +396,9 @@
         height: 650px;
     }
     
-
     #mission-text p {
         font-size: 38px;
     }
-    
 }    
 
 
